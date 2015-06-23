@@ -1,9 +1,8 @@
+#method: returns number closest to the word "controls"; best suited for NCBI; cannot be used for source Europe PMC. 
 
-url <- 'http://www.ncbi.nlm.nih.gov/pubmed/24993907'
+url <- 'http://www.ncbi.nlm.nih.gov/pubmed/24993907'  #assign any NCBI abstract to 'url'. 
 getcontrols = function(url){
 
-  #method: returns number closest to the word "controls"; best suited for NCBI; cannot be used for source europe pmc.    
-  
   v11 <- c(exabs(url)) #make sure this matches input to getcontrols()
   startcont=regexpr("controls", v11)#returns character no. where "cont" starts
   
