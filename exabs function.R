@@ -8,7 +8,7 @@ exabs = function (url){
   library(stringr)
   
   input <- read_html(url) %>%
-    html_children() %>%
+    html_children() %>%        ##this line downward is for text clean up. 
     html_children() %>%
     html_children() %>%
     
