@@ -1,7 +1,7 @@
 #method: returns number closest to the word "controls"; best suited for NCBI; cannot be used for source Europe PMC. 
 #This code can be easily modified to return the numerical value closest to any string pattern. Replace "controls" with desired pattern.
 
-url <- 'http://www.ncbi.nlm.nih.gov/pubmed/24993907'  #assign any NCBI abstract to 'url'. 
+url <- 'http://www.ncbi.nlm.nih.gov/pubmed/24999842'  #assign any NCBI abstract to 'url'. 
 getcontrols = function(url){
 
   abstract <- c(exabs(url)) #make sure this matches input to getcontrols()
