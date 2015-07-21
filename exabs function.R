@@ -1,6 +1,12 @@
 
 exabs = function (url){
+  
   library(rvest)
+  library(rvest)
+  library(XML)
+  library(xml2)
+  library(stringr)
+  
   input <- read_html(url) %>%
     html_children() %>%
     html_children() %>%
