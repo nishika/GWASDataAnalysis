@@ -2,7 +2,6 @@
 exabs = function (url){
   
   library(rvest)
-  library(rvest)
   library(XML)
   library(xml2)
   library(stringr)
