@@ -1,7 +1,7 @@
 
-exabs = function (string){
+exabs = function (url){
   library(rvest)
-  input <- read_html(string) %>%
+  input <- read_html(url) %>%
     html_children() %>%
     html_children() %>%
     html_children() %>%
